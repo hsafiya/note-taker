@@ -1,3 +1,5 @@
+const {db} = require ('./db/db.json')
+const createNewNote = require ('./lib/notes')
 const path= require ('path');
 const express = require('express');
 const PORT = process.env.PORT || 3001;
@@ -22,12 +24,12 @@ app.get('*', (req, res) => {
 
 // route to render 'notes' data
 app.get('/api/notes', (req, res) => {
-    res.json(notes);
+    res.json(db);
 });
 
 // route to add new data to 'notes'
 app.post('/api/notes', (req, res) => {
-    const note = createNewNote(req.body, notes);
+    const note = createNewNote(req.body, db);
     res.json(note);
 
 });
