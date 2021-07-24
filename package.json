@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/hsafiya/note-taker/issues"
   },
-  "homepage": "https://github.com/hsafiya/note-taker#readme"
+  "homepage": "https://github.com/hsafiya/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }
