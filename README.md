@@ -1,5 +1,4 @@
 # Note Taker
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
   Simple note taker app. Cloud based.
