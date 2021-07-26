@@ -25,4 +25,4 @@
   Once clicked on the link  will take you to the main interface. Type the note you need, bellow type detailes regarding the note and click on the save icon on the top right. !!! Important - both fields have to be completed in order for the save icon to display.
   You can delete old notes by clicking on the trash bin icon next to it.
   
-  ![GitHub Logo](./src/screen.png)
+  ![GitHub Logo](./img/screenshot.png)
